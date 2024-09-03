@@ -1,0 +1,80 @@
+.container-contact {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url('../../assets/backgrounds/Background_Contacts.png');
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.container-contact-title {
+  text-align: center;
+}
+
+.my-contact {
+  color: var(--color-purple);
+  font-size: var(--size-subtilte);
+  font-family: var(--font-inconsolata);
+}
+
+.title-contact {
+  color: var(--gray-600);
+  font-size: var(--size-title-md);
+  font-family: var(--font-asap);
+
+  margin-top: 12px;
+}
+
+.description-contact {
+  color: var(--gray-500);
+  font-size: var(--size-text-md);
+  font-family: var(--font-maven);
+
+  display: block;
+  margin-top: 8px;
+}
+
+.container-contact-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-cards {
+  width: 400px;
+  height: 48px;
+  background-color: var(--gray-300);
+
+  padding: 30px;
+
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-cards:hover {
+  border: 2.5px solid var(--color-purple);
+}
+
+.container-contact-logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+
+  color: var(--gray-500);
+  font-size: var(--size-text-md);
+  font-family: var(--font-maven);
+}
+
+.goto-page-icon img {
+  margin: 0 auto;
+  width: 32px;
+}

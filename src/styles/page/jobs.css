@@ -1,0 +1,104 @@
+.container-jobs {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  background-color: var(--gray-200);
+}
+
+.container-page-titles {
+  text-align: center;
+}
+
+.my-jobs {
+  color: var(--color-purple);
+  font-size: var(--size-subtilte);
+  font-family: var(--font-inconsolata);
+}
+
+.title-jobs {
+  color: var(--gray-600);
+  font-size: var(--size-title-md);
+  font-family: var(--font-asap);
+
+  margin-top: 12px;
+}
+
+.container-projects {
+  display: flex;
+  gap: 28px;
+}
+
+.project-card {
+  width: 330px;
+  height: 280px;
+
+  background-color: var(--gray-300);
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-card:hover {
+  border: 2px solid var(--color-purple);
+}
+
+.card-image-opex {
+  width: 306px;
+  height: 156px;
+
+  background-image: url('../../assets/cards/onepiece.png');
+  background-size: cover;
+
+  border-radius: 8px;
+}
+
+.card-image-github {
+  width: 306px;
+  height: 156px;
+
+  background-image: url('../../assets/cards/github.png');
+  background-size: cover;
+
+  border-radius: 8px;
+}
+
+.card-image-netly {
+  width: 306px;
+  height: 156px;
+
+  background-image: url('../../assets/cards/netly.png');
+  background-size: cover;
+
+  border-radius: 8px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  gap: 10px;
+
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.card-title {
+  color: var(--gray-600);
+  font-size: var(--size-title-sm);
+  font-family: var(--font-asap);
+}
+
+.card-description {
+  color: var(--gray-500);
+  font-size: var(--size-text-sm);
+  font-family: var(--font-asap);
+}
